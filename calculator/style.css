@@ -1,0 +1,20 @@
+.container {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(143, 142, 142);
+  display: grid;
+  grid-template-rows: repeat(5, 20%);
+  grid-template-columns: repeat(5, 20%);
+  border: 1px solid black;
+}
+.calc {
+  grid-column: 1/6;
+  background-color: #333;
+  color: #ddd;
+  font-size: 30px;
+}
+.n {
+  border: 1px solid grey;
+  text-align: center;
+  padding-top: 40%;
+}
